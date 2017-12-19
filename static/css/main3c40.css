@@ -1123,6 +1123,7 @@ cite {
 .navbar .btn-navbar.active {
   background-color: #080808 \9;
 }
+
 .navbar .btn-navbar .icon-bar {
   display: block;
   width: 18px;
@@ -2110,9 +2111,10 @@ ol {
 }
 .navbar .btn-navbar img,
 .navbar .btn-navbar:hover img {
-  height: 15px;
-  width: 15px;
+  height: 24px;
+  width: 24px;
   position: absolute;
+/*   right: 15px; */
 }
 .navbar .nav > li {
   text-align: center;
