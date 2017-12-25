@@ -21,3 +21,24 @@
 .small. .small > a {
     font-size: 11px;
 }
+
+ul.list-inline li {
+    display: inline-block;
+    margin-right: 1.4em;
+}
+
+.social-media-icons {
+    margin-top: 12px;
+}
+
+.social-media-icons .fa {
+    font-size: 24px;
+}
+
+.social-media-icons a {
+    color: #7F7F7F !important;
+}
+
+.social-media-icons a:hover {
+    color: #963947 !important;
+}
