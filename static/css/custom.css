@@ -1,0 +1,19 @@
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-fade {
+    color: #7F7F7F;
+}
+
+.small {
+    font-size: 11px;
+}
