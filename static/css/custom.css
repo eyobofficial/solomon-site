@@ -14,6 +14,10 @@
     color: #7F7F7F;
 }
 
-.small {
+.text-fade > a {
+    color: #ccc;
+}
+
+.small. .small > a {
     font-size: 11px;
 }
