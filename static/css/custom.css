@@ -42,3 +42,9 @@ ul.list-inline li {
 .social-media-icons a:hover {
     color: #963947 !important;
 }
+
+.symbol .material-icons, .symbol .fa {
+    font-size: 100px;
+    font-weight: lighter;
+    color: #963947;
+}

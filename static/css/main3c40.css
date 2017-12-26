@@ -499,9 +499,10 @@ abbr.initialism {
 }
 blockquote {
   padding: 0 0 0 15px;
-  margin: 0 0 18px;
-  border-left: 5px solid #eeeeee;
+  margin: 0 0 24px 18px;
+  border-left: 5px solid #7F7F7F;
 }
+
 blockquote p {
   margin-bottom: 0;
   font-size: 16px;
@@ -510,6 +511,7 @@ blockquote p {
 }
 blockquote small {
   display: block;
+  margin-top: 1em;
   line-height: 18px;
   color: #999999;
 }
@@ -2661,7 +2663,7 @@ ol {
   background-color: #963947;
   border: 1px solid #aa4455;
 }
-#process .tiles .process-item .tile:hover img {
+#process .tiles .process-item .tile:hover img, .tile:hover i.material-icons, .tile:hover i.fa {
   opacity: 0;
   filter: alpha(opacity=0);
 }
