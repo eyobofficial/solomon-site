@@ -1930,8 +1930,9 @@ p {
   line-height: 22px;
 }
 section {
-  padding-top: 60px;
+  padding-top: 24px;
 }
+
 ul,
 ol {
   list-style-type: none;
