@@ -48,3 +48,41 @@ ul.list-inline li {
     font-weight: lighter;
     color: #963947;
 }
+
+.border-red {
+    border: 1px solid red;
+}
+
+.border-gold {
+    border: 1px solid gold;
+}
+
+.icon-col {
+    width: 10%;
+    float: left;
+    padding-top: 0.4em;
+}
+
+.icon-col i {
+    font-size: 24px;
+}
+
+.heading-col {
+    width: 85%;
+    float: left;
+    padding-left: 0.4em;
+    cursor: pointer;
+}
+
+.panel-default {
+    margin-bottom: 1em !important;
+}
+
+.panel-heading, .panel-heading .heading-col h3 {
+    color: #963947 !important;
+    padding-bottom: 0.6em;
+}
+
+.hide {
+    display: none !important;
+}
