@@ -57,32 +57,44 @@ ul.list-inline li {
     border: 1px solid gold;
 }
 
-.icon-col {
-    width: 10%;
-    float: left;
-    padding-top: 0.4em;
-}
-
-.icon-col i {
-    font-size: 24px;
-}
-
-.heading-col {
-    width: 85%;
-    float: left;
-    padding-left: 0.4em;
-    cursor: pointer;
-}
-
-.panel-default {
-    margin-bottom: 1em !important;
-}
-
-.panel-heading, .panel-heading .heading-col h3 {
-    color: #963947 !important;
-    padding-bottom: 0.6em;
-}
-
 .hide {
     display: none !important;
+}
+
+/************ Service Accordion Section **************/
+#accordion {
+    margin-top: 0 !important;
+    margin-bottom: 1.8em;
+}
+
+#accordion h3 {
+    margin-top: 1em;
+}
+
+#accordion:first-child h3 {
+    margin-top: 0 !important;
+}
+
+#accordion .ui-accordion-header {
+    border-radius: 0;
+    padding: 0.8em 0.4em 0.8em 0.8em;
+}
+
+#accordion .ui-accordion-header:hover {
+    background-color: #963947;
+    border: 1px solid #aa4455;
+    transition: all 0.3s ease-in-out;
+}
+
+#accordion .ui-accordion-header-active {
+    background-color: #963947;
+    border: 1px solid #aa4455;
+    color: inherit;
+}
+
+#accordion .ui-accordion-content-active {
+    text-align: justify;
+    background-color: #232323;
+    border: none;
+    padding: 12px;
 }
