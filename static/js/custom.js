@@ -1,5 +1,5 @@
 $(function() {
-   $( "#accordion" ).accordion({
+   $( ".accordion" ).accordion({
        icons: false,
        heightStyle: "content",
 });
