@@ -57,8 +57,8 @@
 						<img src="static/img/placeholder.png" data-id="mobile_nav" id="plus" class="load-png-or-svg" alt="close navigation">
 					</a>
 					<a class="brand hidden-phone" href="#home">
-						<img src="static/img/placeholder.png" data-id="logo" class="load-png-or-svg logo" alt="dga logo">
-						<img src="static/img/placeholder.png" data-id="logo_hover" class="load-png-or-svg logo" alt="dga logo hover">
+						<img src="static/img/logo.png" data-id="logo" class="logo" alt="Solomon Engineering Logo">
+						<img src="static/img/logo_hover.png" data-id="logo_hover" class="logo" alt="Solomon Engineering logo hover">
 						Solomon Engineering
 					</a>
 					<div class="nav-collapse collapse">
@@ -73,10 +73,21 @@
 				</div>
 			</div>
 		</nav>
-		<div id="home" class="flexslider">
-			<object data="static/img/placeholder.png" data-id="mobile_logo" type="image/svg+xml" id="load_mobile_svg" class="logo">
-				<img src="static/img/placeholder.png" data-id="mobile_logo" id="load_mobile_png" class="logo" alt="dga logo">
-			</object>
+
+		<section id="mobile-banner" class="hidden-desktop hidden-tablet">
+		    <div class="container-fluid">
+		    	<div class="text-center">
+		    		<img src="static/img/logo.png" class="mobile-logo" alt="Solomon Engineering Group">
+		    		<h1>Solomon Engineering Group</h1>
+		    		<p class="text-fade text-center small">Do The Right Thing, The First Time</p>
+		    	</div>
+		    </div>
+		</section>
+
+		<div id="home" class="flexslider hidden-phone">
+			<!-- <object data="static/img/placeholder.png" data-id="logo" type="image/svg+xml" id="load_mobile_svg" class="logo">
+				<img src="static/img/placeholder.png" data-id="logo" id="load_mobile_png" class="logo" alt="dga logo">
+			</object> -->
 
 			<ul class="slides">
 				<li data-id="0">
@@ -576,11 +587,11 @@
 							<p>Balderas Condominum</p>
 							<p>Yeka Sub-city</p>
 							<p>Addis Ababa, Ethiopia</p>
-							<a href="http://maps.google.com/maps?daddr=Diehl+Group+Architects" target="_blank" id="directions">Get Directions</a>
+							<a href="#" target="_blank" id="directions">Get Directions</a>
 						</div>
 						<div class="span4">
 							<h3>Latest Tweet From Us &#8212;</h3>
-							<!-- <div>
+							<div>
 								<a class="twitter-timeline"
 								   data-width="640" 
 								   data-height="320" 
@@ -589,7 +600,7 @@
 								   data-tweet-limit="1" 
 								   href="https://twitter.com/hashtag/HappyNewYear2018" data-widget-id="945082809684758529">Latest Tweets</a>
 								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>								
-							</div> -->
+							</div>
 						</div>
 					</div>
 				</div>
@@ -612,6 +623,6 @@
 		<script type="text/javascript" src="static/js/custom.js"></script>
 
 		<!-- Google Scripts -->
-		<!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDIZAHg9AQXoWIIA97OjaIjTGyIvW2xDyU&amp;sensor=false"></script> -->
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDIZAHg9AQXoWIIA97OjaIjTGyIvW2xDyU&amp;sensor=false"></script>
 	</body>
 </html>

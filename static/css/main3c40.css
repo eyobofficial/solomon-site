@@ -2077,9 +2077,9 @@ ol {
 .navbar .brand .logo {
   bottom: 0;
   top: 0;
-  height: 17px;
+  /* height: 17px; */
   left: 0;
-  margin: 19px 20px;
+  margin: 10px 20px;
   position: absolute;
   width: 51px;
   -webkit-transition: all 0.2s ease-in;

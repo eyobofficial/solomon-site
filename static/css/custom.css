@@ -124,3 +124,26 @@ ul.list-inline li {
     margin: 2em auto;
     border-radius: 50%;
 }
+
+/****************** Mobile Logo ******************/
+#mobile-banner img {
+    display: block;
+    width: 80%;
+    margin: 25% auto 60px;
+}
+
+#mobile-banner h1 {
+    width: 80%;
+    margin: 0 auto 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-family: "ff-din-web-pro", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    border-bottom: 1px solid #7F7F7F;
+}
+
