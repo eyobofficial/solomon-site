@@ -102,10 +102,12 @@ ul.list-inline li {
 
 /************* Team Accordion ****************/
 #team-accordion .ui-accordion-header {
+    position: relative;
     padding: 0.1em 0.4em 0.8em 0.8em;
 }
 
 #team-accordion h3 {
+    width: 60%;
     color: inherit;
     line-height: 1.2em;
 }
@@ -116,6 +118,17 @@ ul.list-inline li {
     font-weight: bold;
 }
 
+#team-accordion div.action-icon {
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    right: 20px;
+}
+
+#team-accordion div.action-icon .fa {
+    font-size: 18px;
+}
+
 /************* Team Img ******************/
 .team-img {
     display: block;
@@ -124,6 +137,9 @@ ul.list-inline li {
     margin: 2em auto;
     border-radius: 50%;
 }
+
+/*********** Staff Heading ****************/
+
 
 /****************** Mobile Logo ******************/
 #mobile-banner img {
